@@ -1,0 +1,14 @@
+{
+    "name": "Copy Open Tabs",
+    "version": "1.0",
+    "description": "Format and copy the open tab URLs to the clipboard",
+    "manifest_version": 3,
+    "author": "Mauricio IRV",
+    "permissions": [
+        "tabs"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Copy Open Tabs"
+    }
+}

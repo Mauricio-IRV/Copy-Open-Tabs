@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Open Tabs</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h2>Open Tabs</h2>
+    <label class="switch">
+      <input type="checkbox" id="toggle-btn">
+      <span class="slider"></span>
+    </label>
+  </div>
+  
+  <select id="link-format">
+    <option value="plain">Plain</option>
+    <option value="markdown">Markdown</option>
+    <option value="html">HTML</option>
+  </select>
+  
+  <textarea id="url-list" placeholder="Links will appear here..."></textarea>
+  <br>
+  <button id="copy-btn">Copy to Clipboard</button>
+</body>
+</html>
